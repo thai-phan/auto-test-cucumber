@@ -1,0 +1,25 @@
+{
+  "name": "litium-automate",
+  "version": "1.0.0",
+  "description": "litium automation scripts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "protractor dev.conf.js",
+    "test": "protractor test.conf.js",
+    "bs": "protractor browserstackconf.js",
+    "start": "webdriver-manager update && webdriver-manager start"
+  },
+  "author": "luyen.nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^3.1.0",
+    "cucumber-html-report": "^0.6.2",
+    "cucumber-html-reporter": "^3.0.4",
+    "protractor": "^5.2.0",
+    "protractor-cucumber-framework": "^4.1.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.2.5"
+  },
+  "dependencies": {}
+}

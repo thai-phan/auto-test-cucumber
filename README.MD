@@ -1,0 +1,1 @@
+This repository contains automation test for Litium project
